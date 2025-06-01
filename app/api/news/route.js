@@ -4,7 +4,7 @@ export async function GET(req) {
 
     try {
         const response = await fetch(
-            `https://newsapi.org/v2/top-headlines?category=${category}&apiKey=${process.env.NEWS_API_KEY}`
+            `https://newsapi.org/v2/top-headlines?category=${category}&apiKey=6f28c53c8dfc445e9163803440851bdf`
         );
 
         const data = await response.json();
